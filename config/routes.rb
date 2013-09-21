@@ -5,6 +5,7 @@ Starterapp::Application.routes.draw do
   match '/login' => 'sessions#new', via: %i(get), as: :login
 
   resources :services, only: %i(index create destroy)
+  resources :accounts
   root 'pages#home'
 
 end

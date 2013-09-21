@@ -1,0 +1,17 @@
+<h1><%=t :accounts%></h1>
+<table>
+<thead>
+	<tr>
+		<th><%=t :name %></th>
+		<th><%=t :tags %></th>
+	</tr>
+</thead>
+<tbody>
+	<% @accounts.each do |account| %>
+	<tr>
+		<td><%= account.name %></td>
+		<td><%= account.tag_list %></td>
+	</tr>
+	<% end %>
+</tbody>
+</table>

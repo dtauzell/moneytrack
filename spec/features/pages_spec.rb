@@ -1,8 +1,8 @@
 require 'spec_helper'
 
 describe 'Home' do
-  it "has Hello World in title" do
+  it "has Money Track in title" do
     visit root_path
-    expect(page).to have_title I18n.t('hello')
+    expect(page).to have_title I18n.t('moneytrack')
   end
 end

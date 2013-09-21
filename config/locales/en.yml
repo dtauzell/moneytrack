@@ -20,10 +20,13 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  moneytrack: "Money Track"
+  accounts: "Accounts"
+  name: "Name"
+  tags: "Tags"
   app:
-    title: "Omniauth Rails (codecase)"
-    subtitle: "Example of OmniAuth implementations in Ruby on Rails 4."
+    title: "Money Track"
+    subtitle: ""
   auth:
     twitter_html: "Login with <strong>Twitter</strong>"
     github_html: "Login with <strong>GitHub</strong>"
